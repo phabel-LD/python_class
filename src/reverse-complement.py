@@ -6,7 +6,7 @@ VERSION
     1.0
     
 AUTHOR
-	Phabel Lopez	
+	Phabel A. Lopez D.	
     
 DESCRIPTION
 	Make the reverse complement of DNA sequence
