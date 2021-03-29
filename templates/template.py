@@ -7,9 +7,7 @@
 
 ## DATE:
 
-## DESCRIPTION:
-
-## LOGIC:
+## DESCRIPTION & LOGIC:
 
 ## USAGE:
 
@@ -17,11 +15,7 @@
 
 ## ARGUMENTS:
 
-## ARGUMENTS:
-
-## INPUT:
-
-## OUTPUT:
+## INPUT - OUTPUT:
 
 ## EXTRA COMMENTS:
 
