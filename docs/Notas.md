@@ -63,37 +63,67 @@ Abre el panorama porque el código está en el _web para consulta y uso_; creand
 
 Una rama de Git es un apuntador que permite hacer referencia a cada uno de los commmits. Rama por default de Git es la *rama master*, la cual se crea por defecto al usar el comando *git init*. Las ramas se pueden asociar a módulos, que después se pueden cargar a la Rama master; es decir, el edo. final.
 
-Para controlar más de un archivo
+Se puede hacer referencia a un *commit* también a través de las cabeceras (HEAD); cada commit represent un head en el repositorio. Si se busca un *commit* específico se usa el identificador único (20 caracteres) o id corto (7 caracteres), o el header [~N][~ con Alt-Ñ]:
+
+```
+git diff HEAD~N [file]
+
+git show HEAD~N [file]: muestra el autor del commit en el HEAD~N
+```
+Se pueden restaurar versiones de files contando con fechas y versiones críticas:
+```
+git checkout [ID]/[HEAD~N] [file] [file] [file]: Recupera versiones anteriores indicando el commit al que se quiere volver.
 
 
+git diff [IDnum] [file]: compara através de versiones.
+```
 
+* .gitignore: archivos ignorados por Git. Orden de línea por línea. Se puede usar "!" como NOT.
+* git status --ignored: lista lo archivos ignorados. Excepciones con "!"
+* Se debe sincronizar Git con GitHub: ```git remote add origin [URL]```. Se comprueba con ```git remote -v```
 
+#### Push & Pull
+
+* _push:_ ```git push origin master```
+* _pull:_ ```git pull origin master```
+
+#### Buenas Prácticas
+
+* Tener _README_ file.
+* Usar ```.gitignored```
+* Administrar _licenses_ para la protección de Data.
 
 
 #### Commands
 
-*git status*: indica el edo. de los archivos controlados por Git.
+```git log --oneline | wc -l```: para contar commits. Con muchos autores se agrega: ```git log --author="phabel" --oneline | wc -l```
 
-*git config --list*
+```git status -u```
 
-*git --version*
+```git status```: indica el edo. de los archivos controlados por Git.
 
-*git config --[global user.name]*
+```git config --list```
 
-*git config --[global user.email]*
+```git --version```
 
-*git add* :(temporal en area de preparación). Se reusa con cada modificación significativa (versión) para pasar los cambios al area de preparación.
+```git config --[global user.name]```
 
-*git commit -m "Mensaje"* : Consolida los cambios. Manda al repositorio con el seguimiento de los cambios para hacerlo permanente. *-m* para mensaje corto <50 caracteres, y  '*-a'  para mensajes más largos*; pero lo mejor es siempre usar mensajes cortos (<70 caracteres) sobre los cambios realizados; separando e mensajeen un title y un body. Se puede mover un repositorio Git mientras el directorio *.git* no se vea afectado.
-Se puede modificar el mensaje del *commit* mas reciente con: *git commit --amend -m "Message"*
+```git config --[global user.email]```
 
-*mkdir*
+```git add``` :(temporal en area de preparación). Se reusa con cada modificación significativa (versión) para pasar los cambios al area de preparación.
 
-*git init* : Inicializa un repositorio con git. Crea carpeta *(.git/)* oculta en el directorio donde se trabaja con Git. Trabaja sobre todas las subcarpetas dentro de la carpeta donde se inicializó. No es buena idea anidar carpetas con git subordiandas a otras carpetas con git. Es decir, *git controla todo los repositorios subordinado al repositorio raiz de git*
+```git commit -m "Mensaje"``` : Consolida los cambios. Manda al repositorio con el seguimiento de los cambios para hacerlo permanente. ```-m``` para mensaje corto <50 caracteres, y  '-a'  para mensajes más largos; pero lo mejor es siempre usar mensajes cortos (<70 caracteres) sobre los cambios realizados; separando e mensajeen un title y un body. Se puede mover un repositorio Git mientras el directorio ```.git``` no se vea afectado.
+Se puede modificar el mensaje del ```commit``` mas reciente con: ```git commit --amend -m "Message"``` Para alterar mensajes de commits particulares se usa:
+```git rebase --interactive [IDcommit]^ ```
 
-*git log* despliega el historia de *commmits*
+```git init``` : Inicializa un repositorio con git. Crea carpeta ```.git/``` oculta en el directorio donde se trabaja con Git. Trabaja sobre todas las subcarpetas dentro de la carpeta donde se inicializó. No es buena idea anidar carpetas con git subordiandas a otras carpetas con git. Es decir, *git controla todo los repositorios subordinado al repositorio raiz de git.*
 
-*git log --oneline*
+```git log``` despliega el historia de *commmits*
 
-*git log -N*
+```git log --oneline``` despliega solo la línea de identificación.
+
+```git log -N``` despliega N líneas.
+
+#### OpenScience Philosophy
+			_*Intercambiar info. libremente es ideal en la ciencia...*_
 
