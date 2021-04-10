@@ -1,15 +1,21 @@
+
+## README
+
+### Introducción
+
 Este directorio contiene el material con el que se trabajará en la materia de Python del Semestre2 de la LCG-CCG.
 
 Está dividido en otros directorios que incluyen:
 
-docs: incluye documentos de notas para la clase.
+* docs: incluye documentos de notas para la clase.
 
-src: Incluye los documentos con los que se trabaja durante la clase.
+* src: Incluye los documentos con los que se trabaja durante la clase.
 
-libs:
+* libs: librerias externas que son usadas por programas desarrollados
 
-results: Incluye documentos de salida.
+* results: Incluye documentos de salida.
 
-test:
-
+* test: archivos de pruebas para correr los programas
+
+
 
