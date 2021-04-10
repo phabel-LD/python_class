@@ -55,7 +55,7 @@ seq_DNA = seq_DNA.upper() ## Convertir todo a mayúsculas. Es más robusto inclu
 
 ## Posicion de AUG-->TAC y STOP: UAA-->TAA
 TAC_position = seq_DNA.find("TAC") ## Se usa .find() --> Ubicar inicio.
-TAA_position = seq_DNA.find("TAA")+2 ## Ubicar final.
+TAA_position = seq_DNA.find("TAA")+2 ## Ubicar final. Sumar dos paa incluir el STOPcodon completo.
 
 
 ## Imprimir la cadena completa se tiene...
