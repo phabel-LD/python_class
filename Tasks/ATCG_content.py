@@ -42,7 +42,7 @@
   Creación: Phabel Antonio Lopez Delgado - 17/abr/2021.
     
 ## GITHUB:
-  [Insert here GitHub link]
+  https://github.com/phabel-LD/python_class/edit/master/Tasks/ATCG_content.py
 
 '''
 
