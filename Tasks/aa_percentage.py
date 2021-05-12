@@ -46,7 +46,7 @@
   Phabel Antonio López Delgado   May 11th, 2021.
 
 ## SOURCE:
-  GitHub:
+  GitHub: https://github.com/phabel-LD/python_class/blob/master/Tasks/aa_percentage.py
 '''
 
 ## Funcion
