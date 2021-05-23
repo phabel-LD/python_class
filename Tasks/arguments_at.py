@@ -22,14 +22,15 @@
   arguments_at.py python 3.9.2
 
 ## ARGUMENTS:
-  [name]  [description]
-
-## INPUT - OUTPUT:
   -i, --input: file with DNA sequences
   -o, --output: output file with AT content per line.
+
+## INPUT - OUTPUT:
+  -i 4_dna_sequences.txt
+  -o output_at.txt
     
 ## EXAMPLES
-  $: python3 arguments_at.py -i 4_dna_sequences.txt output_at.txt
+  $: python3 arguments_at.py -i 4_dna_sequences.txt -o output_at.txt
 
   -> Output: output.txt
 
