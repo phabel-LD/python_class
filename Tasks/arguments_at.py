@@ -47,6 +47,9 @@
 ## SOURCE:
   GitHub: https://github.com/phabel-LD/python_class/blob/master/Tasks/arguments_at.py
 '''
+####################
+# Libraries
+####################
 
 import argparse
 
@@ -110,8 +113,10 @@ except IOError:
     data = input_file.readlines()
     input_file.close()
 
+## Open output file.
 output_file = open(output_path, 'w')
 
+## Get AT content for every sequence in the input file.
 for sequence in data:
     line = sequence.split("=")
     output_file.write(f'AT content for sequence {line[1]} is {at_content(line[1])}\n')
