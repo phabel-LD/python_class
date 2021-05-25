@@ -28,7 +28,19 @@
 
 ## SOFTWARE REQUIREMENTS:
   [list the libraries, program version needed to run the program]
-    
+  
+## FUNCTIONS:
+  [List requiered functions, its arguments and description]
+  
+  funtion_name(arguments):
+    [Description]
+    return()
+  
+   Example:
+   at_content([DNA_sequence]): 
+     [Calculates at_content of a sequence, poorly robust]
+     return()
+
 ## EXTRA COMMENTS:
 
 ## LAST MODIFICATION:
@@ -36,7 +48,6 @@
 
 ## GITHUB
   [Insert GitHub link]
-  
 '''
 
 
