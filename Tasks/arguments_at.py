@@ -37,6 +37,9 @@
 ## SOFTWARE REQUIREMENTS:
   Libraries: argparse
     
+## FUNCTIONS:
+  No functions were defined.
+    
 ## EXTRA COMMENTS:
   Script must be called from command line. If there is a sequence
   with 'N', it will display an error. Take in count try-except structures.
