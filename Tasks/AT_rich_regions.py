@@ -48,8 +48,8 @@
 ## LAST MODIFICATION:
   Phabel Antonio López Delgado: June 05th, 2021. [Creation]
 
-## GITHUB
-  [Insert GitHub link]
+## SOURCE
+  GitHub: https://github.com/phabel-LD/python_class/blob/master/Tasks/AT_rich_regions.py
 '''
 
 ####################
