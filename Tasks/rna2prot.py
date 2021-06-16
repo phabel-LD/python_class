@@ -45,8 +45,8 @@
 ## LAST MODIFICATION:
   Phabel Antonio Lopez Delgado : June 16th, 2021. [Creation]
 
-## GITHUB
-  [Insert GitHub link]
+## SOURCE:
+  GitHub: https://github.com/phabel-LD/python_class/blob/master/Tasks/rna2prot.py
   
 '''
 
