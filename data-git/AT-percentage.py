@@ -5,7 +5,7 @@ VERSION
         1.0
 
 AUTHOR
-        
+        Phabel Antonio Lopez Delgado
 
 DESCRIPTION
         Calculate percentage of AT on a genome sequence
