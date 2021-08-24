@@ -8,7 +8,7 @@ AUTHOR
         
 
 DESCRIPTION
-        Calculate percentage of AT on a genome sequence
+        Calculate percentage of AT (Adenine and Thymine) on a genome sequence
 
 CATEGORY
         Genomic sequence
